@@ -3,7 +3,7 @@ import { ref, onMounted } from 'vue';
 import { fetchAvailableLanguages } from '../services/translationService';
 import type { Language } from '../types';
 
-const props = defineProps<{
+defineProps<{
   modelValue: string;
   label: string;
 }>();

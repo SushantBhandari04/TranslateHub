@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useTranslationStore } from '../stores/translationStore';
-import type { Translation } from '../types';
+// import type { Translation } from '../types';
 
 const translationStore = useTranslationStore();
 const history = computed(() => translationStore.getHistory);
